@@ -77,8 +77,8 @@ httpd.serve_forever()
 # OUTPUT:PUSH
 
 
-![alt text](<../Screenshot 2026-11-24 105635.png>)
-![alt text](<../Screenshot 2026-11-24 105651.png>)
+![output 1](output1.png)
+![output 2](output2.png)
 
 
 # RESULT:
