@@ -21,7 +21,7 @@ Serving the HTML pages.
 Testing the webserver.
 
 # PROGRAM:
-...
+```
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 <html>
@@ -60,7 +60,7 @@ content = """
 <th>5.6 billion</th>
 </body>
 </html>
-"""
+
 class myhandler(BaseHTTPRequestHandler):
     def do_GET(self):
         print("request received")
@@ -72,10 +72,14 @@ server_address = ('',8000)
 httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever()
-...
-# OUTPUT:
+```
+
+# OUTPUT:PUSH
+
+
 ![alt text](<../Screenshot 2026-11-24 105635.png>)
 ![alt text](<../Screenshot 2026-11-24 105651.png>)
+
 
 # RESULT:
 The program for implementing simple webserver is executed successfully.
